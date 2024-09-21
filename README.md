@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9601b45a-da33-4475-8b05-d7f4c9c37b1e" />
+  <img src="https://github.com/user-attachments/assets/7c76ff3a-585c-4351-a584-e88f2a6ab737" />
 </p>
 
 # Star Wars
@@ -15,27 +15,15 @@
    ```cmd
    pip install -r requirements.txt
    ```
-3. After executing the above commands, open the main.py file<br>
-   Then __upload the locations__ of the photos (__BG.jpg__, __ROCKET.png__, __STAR.png__) in the specified places.
-
-   ```python
-   BG = pygame.transform.scale(pygame.image.load`('...\Star-wars/BG.jpg')`, (WIDTH, HEIGHT))
+3. After installing the requirements, in the Star-wars directory, open the cmd terminal<br>
+   and run this command:
+   ```cmd
+   python main.py
    ```
-
-   __For example:__<br>
-   `('...\Star-wars/BG.jpg')` ===> `(D:\Desktop\myPC\Star-wars/BG.jpg)`
-
-4. Run the program<br>
-   Then use the __left__ and __right__ buttons to move the __ROCKET__
-
 - __Be careful!!__<br>
   Because if the fireballs hit your ROCKET, __you will lose__<br>
-  And the game starts from the beginning :)
+  And the game starts from the beginning :)<br>
+  Then use the __left__ and __right__ buttons to move the __ROCKET__
 
 ---
 ![Sobhan Vaziri](http://7artkey.com/Sobhan/Sobhan_Vaziri.png)
-
-
-```python
-
-```
