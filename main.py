@@ -17,13 +17,13 @@ STAR_HEIGHT = 20
 STAR_VEL = 4
 
 # Upload the location of the background photo (BG.jpg) in this section --->
-BG = pygame.transform.scale(pygame.image.load('...\Star-wars/BG.jpg'), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load('BG.jpg'), (WIDTH, HEIGHT))
 
 # Upload the location of the star photo (STAR.png) here --->
-STAR_IMAGE = pygame.transform.scale(pygame.image.load('...\Star-wars/STAR.png'), (15, 30))
+STAR_IMAGE = pygame.transform.scale(pygame.image.load('STAR.png'), (15, 30))
 
 # Upload the location of the rocket photo (ROCKET.png) here --->
-ROCKET_IMAGE = pygame.transform.scale(pygame.image.load('...\Star-wars/ROCKET.png'), (PLAYER_WIDTH, PLAYER_HEIGHT))
+ROCKET_IMAGE = pygame.transform.scale(pygame.image.load('ROCKET.png'), (PLAYER_WIDTH, PLAYER_HEIGHT))
 
 FONT = pygame.font.SysFont('comicsans', 30)
 
