@@ -6,7 +6,7 @@ pygame.font.init()
 
 WIDTH, HEIGHT = 1000, 800
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption('Sobhan Vaziri   V 2.0')
+pygame.display.set_caption('Sobhan Vaziri   V 1.0')
 
 PLAYER_WIDTH = 30
 PLAYER_HEIGHT = 60
